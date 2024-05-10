@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/images/spotify-icon.png">
+</head>
+<body>
+    
+    <div class="sidebar">
+        <div class="sidebar-wrapper">
+            <div class="sidebar-logo">
+                <img src="./assets/images/logo-spotify.png" alt="Logo">
+            </div>
+            <div class="sidebar-menu">
+                <a class="sidebar-menu-select" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div>
+            <div class="sidebar-menu">
+                <p class="sidebar-menu-title">Playlists</p>
+                <div class="sidebar-menu-item">
+                    <div class="sidebar-menu-item-componente">
+                        +
+                    </div>
+                    <span>Criar Playlist</span>
+                </div>
+                <div class="sidebar-menu-item">
+                    <img src="./assets/images/musicas-curtidas.png" alt="">
+                    <span>Músicas Curtidas</span>
+                </div>
+            </div>
+            <div class="sidebar-playlists">
+                <a href="#">Playlist 1</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-wrapper">
+            <div class="main-row">
+                <div class="main-row-title"><h2>Mais Ouvidas</h2></div>
+                <div class="main-col" data-image="./assets/images/yunk-vino.png" data-artist="Yunk Vino" data-song="Animais" data-file="./assets/music/animais.m4a">
+                    <img src="./assets/images/yunk-vino.png" alt="">
+                    <h3>Yunk Vino</h3>
+                    <p>Animais</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/kayblack-preferida.png" data-artist="Kayblack" data-song="Preferida" data-file="./assets/music/preferida.m4a">
+                    <img src="./assets/images/kayblack-preferida.png" alt="">
+                    <h3>Kayblack</h3>
+                    <p>Preferida</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/mandraka.jpg" data-artist="Veigh..." data-song="Mandraka" data-file="./assets/music/mandraka.m4a">
+                    <img src="./assets/images/mandraka.jpg" alt="">
+                    <h3>Veigh...</h3>
+                    <p>Mandraka</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/veigh-novo-balanco.png" data-artist="Veigh" data-song="Novo Balanço" data-file="./assets/music/novo-balanco.m4a">
+                    <img src="./assets/images/veigh-novo-balanco.png" alt="">
+                    <h3>Veigh</h3>
+                    <p>Novo Balanço</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/travis-scott.png" data-artist="Travis Scott" data-song="MAFIA" data-file="./assets/music/travis-mafia.mp3">
+                    <img src="./assets/images/travis-scott.png" alt="">
+                    <h3>Travis Scott</h3>
+                    <p>MAFIA</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/l7nnon.png" data-artist="L7NNON" data-song="Perdição" data-file="./assets/music/l7-perdicao.m4a">
+                    <img src="./assets/images/l7nnon.png" alt="">
+                    <h3>L7NNON</h3>
+                    <p>Perdição</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/tue.png" data-artist="Matuê" data-song="Kenny G" data-file="./assets/music/tue-kennyg.mp3">
+                    <img src="./assets/images/tue.png" alt="">
+                    <h3>Matuê</h3>
+                    <p>Kenny G</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/mcpaiva.png" data-artist="Mc Paiva ZS" data-song="Magnata" data-file="./assets/music/paiva-magnata.mp3">
+                    <img src="./assets/images/mcpaiva.png" alt="">
+                    <h3>MC Paiva ZS</h3>
+                    <p>Magnata</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/mcdavi.png" data-artist="Mc Davi" data-song="Louis Vuitton" data-file="./assets/music/mcdavi-louis-vuitton.m4a">
+                    <img src="./assets/images/mcdavi.png" alt="">
+                    <h3>Mc Davi</h3>
+                    <p>Louis Vuitton</p>
+                </div>
+            </div>
+
+            <div class="main-row">
+                <div class="main-row-title"><h2>Brasileiras</h2></div>
+                <div class="main-col" data-image="./assets/images/2023.jpg" data-artist="Vulgo FK..." data-song="2023" data-file="./assets/music/2023.m4a">
+                    <img src="./assets/images/2023.jpg" alt="">
+                    <h3>Vulgo FK...</h3>
+                    <p>2023</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/lets4.jpg" data-artist="MC IG, Ryan SP..." data-song="Let's Go 4" data-file="./assets/music/lets4.mp3">
+                    <img src="./assets/images/lets4.jpg" alt="">
+                    <h3>MC IG, Ryan SP...</h3>
+                    <p>Let's Go 4</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/sempretem.jpg" data-artist="MC IG" data-song="Sempre Tem" data-file="./assets/music/sempretem.m4a">
+                    <img src="./assets/images/sempretem.jpg" alt="">
+                    <h3>MC IG</h3>
+                    <p>Sempre Tem</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/campari.jpg" data-artist="Yunk Vino, 808 Luke" data-song="Campari" data-file="./assets/music/campari.mp3">
+                    <img src="./assets/images/campari.jpg" alt="">
+                    <h3>Yunk Vino, 808 Luke</h3>
+                    <p>Campari</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/misterio.jpg" data-artist="MC Kevin" data-song="Mistério" data-file="./assets/music/misterio.m4a">
+                    <img src="./assets/images/misterio.jpg" alt="">
+                    <h3>MC Kevin</h3>
+                    <p>Mistério</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/licor43.jpg" data-artist="Kayblack..." data-song="Licor 43" data-file="./assets/music/licor43.m4a">
+                    <img src="./assets/images/licor43.jpg" alt="">
+                    <h3>Kayblack...</h3>
+                    <p>Licor 43</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/novidadenaarea.jpg" data-artist="MC Livinho" data-song="Novidade na Área" data-file="./assets/music/novidadenaarea.m4a">
+                    <img src="./assets/images/novidadenaarea.jpg" alt="">
+                    <h3>MC Livinho</h3>
+                    <p>Novidade na Área</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/delove.jpg" data-artist="1Kilo" data-song="De Love" data-file="./assets/music/delove.mp3">
+                    <img src="./assets/images/delove.jpg" alt="">
+                    <h3>1Kilo</h3>
+                    <p>De Love</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/amordefimdenoite.jpg" data-artist="Orochi" data-song="Amor de Fim de Noite" data-file="./assets/music/amordefimdenoite.mp3">
+                    <img src="./assets/images/amordefimdenoite.jpg" alt="">
+                    <h3>Orochi</h3>
+                    <p>Amor de Fim de Noite</p>
+                </div>
+            </div>
+
+            <div class="main-row">
+                <div class="main-row-title"><h2>Internacionais</h2></div>
+                <div class="main-col" data-image="./assets/images/rodeo.jpg" data-artist="Lah Pat, Flo Milli" data-song="Rodeo(Remix)" data-file="./assets/music/rodeo.m4a">
+                    <img src="./assets/images/rodeo.jpg" alt="">
+                    <h3>Lah Pat, Flo Milli</h3>
+                    <p>Rodeo(Remix)</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/21questions.jpg" data-artist="50 cent" data-song="21 Questions" data-file="./assets/music/21questions.mp3">
+                    <img src="./assets/images/21questions.jpg" alt="">
+                    <h3>50 cent</h3>
+                    <p>21 Questions</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/iknow.jpg" data-artist="Big Sean, Jhené Aiko" data-song="I Know" data-file="./assets/music/iknow.mp3">
+                    <img src="./assets/images/iknow.jpg" alt="">
+                    <h3>Big Sean, Jhené Aiko</h3>
+                    <p>I Know</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/hotline.jpg" data-artist="Drake" data-song="Hotline Bling" data-file="./assets/music/drake.mp3">
+                    <img src="./assets/images/hotline.jpg" alt="">
+                    <h3>Drake</h3>
+                    <p>Hotline Bling</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/future.jpg" data-artist="Future" data-song="PUFFIN ON ZOOTIEZ" data-file="./assets/music/future.mp3">
+                    <img src="./assets/images/future.jpg" alt="">
+                    <h3>Future</h3>
+                    <p>PUFFIN ON ZOOTIEZ</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/thegarden.jpg" data-artist="Tribal Seeds" data-song="The Garden" data-file="./assets/music/thegarden.mp3">
+                    <img src="./assets/images/thegarden.jpg" alt="">
+                    <h3>Tribal Seeds</h3>
+                    <p>The Garden</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/whitetee.jpg" data-artist="Summer Walker" data-song="White Tee" data-file="./assets/music/summer.mp3">
+                    <img src="./assets/images/whitetee.jpg" alt="">
+                    <h3>Summer Walker</h3>
+                    <p>White Tee</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/kevingates.jpg" data-artist="Kevin Gates" data-song="Ride Da Night" data-file="./assets/music/ridedanight.mp3">
+                    <img src="./assets/images/kevingates.jpg" alt="">
+                    <h3>Kevin Gates</h3>
+                    <p>Ride Da Night</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/betternow.jpg" data-artist="Post Malone" data-song="Better Now" data-file="./assets/music/betternow.mp3">
+                    <img src="./assets/images/betternow.jpg" alt="">
+                    <h3>Post Malone</h3>
+                    <p>Better Now</p>
+                </div>
+            </div>
+
+            <div class="main-row">
+                <div class="main-row-title"><h2>Músicas Para Curtir</h2></div>
+                <div class="main-col" data-image="./assets/images/thelazysong.jpg" data-artist="Bruno Mars" data-song="The Lazy Song" data-file="./assets/music/thelazysong.mp3">
+                    <img src="./assets/images/thelazysong.jpg" alt="">
+                    <h3>Bruno Mars</h3>
+                    <p>The Lazy Song</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/igottafeeling.jpg" data-artist="The Black Eyed Paes" data-song="I Gotta Feeling" data-file="./assets/music/igottafeeling.mp3">
+                    <img src="./assets/images/igottafeeling.jpg" alt="">
+                    <h3>The Black Eyed Paes</h3>
+                    <p>I Gotta Feeling</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/vagalumes.jpg" data-artist="Pollo" data-song="Vagalumes" data-file="./assets/music/vagalumes.mp3">
+                    <img src="./assets/images/vagalumes.jpg" alt="">
+                    <h3>Pollo</h3>
+                    <p>Vagalumes</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/leal.jpg" data-artist="Djonga" data-song="LEAL" data-file="./assets/music/leal.mp3">
+                    <img src="./assets/images/leal.jpg" alt="">
+                    <h3>Djonga</h3>
+                    <p>LEAL</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/baladalouca.jpg" data-artist="Munhoz e Mariano" data-song="Balada Louca" data-file="./assets/music/baladalouca.mp3">
+                    <img src="./assets/images/baladalouca.jpg" alt="">
+                    <h3>Munhoz e Mariano</h3>
+                    <p>Balada Louca</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/imaginaso.jpg" data-artist="MC Zaquin" data-song="Imagina Só" data-file="./assets/music/imaginaso.m4a">
+                    <img src="./assets/images/imaginaso.jpg" alt="">
+                    <h3>MC Zaquin</h3>
+                    <p>Imagina Só</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/macaverde.jpg" data-artist="MC Hariel" data-song="Maçã Verde" data-file="./assets/music/macaverde.mp3">
+                    <img src="./assets/images/macaverde.jpg" alt="">
+                    <h3>MC Hariel</h3>
+                    <p>Maçã Verde</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/lembrancas.jpg" data-artist="Hungria Hip Hop" data-song="Lembranças" data-file="./assets/music/lembrancas.mp3">
+                    <img src="./assets/images/lembrancas.jpg" alt="">
+                    <h3>Hungria Hip Hop</h3>
+                    <p>Lembranças</p>
+                </div>
+                <div class="main-col" data-image="./assets/images/serfeliz.jpg" data-artist="Natiruts" data-song="Quero Ser Feliz Também" data-file="./assets/music/serfeliz.m4a">
+                    <img src="./assets/images/serfeliz.jpg" alt="">
+                    <h3>Natiruts</h3>
+                    <p>Quero Ser Feliz Também</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="player">
+        <div class="player-artist">
+
+        </div>
+        <div class="player-control">
+            <div class="player-control-buttons">
+                <a href="#"><i class="fas fa-backward"></i></a>
+                <a style="display: none;" id="pauseBtn" href="#"><i class="far fa-pause-circle"></i></a>
+                <a id="playBtn" href="#"><i class="far fa-play-circle"></i></a>
+                <a href="#"><i class="fas fa-forward"></i></a>
+            </div>
+            <div class="player-control-progress">
+                <div style="width: 0%;" class="player-control-progress-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audioPlayer" style="position: absolute; left: 0; top: 0; z-index: -999; opacity: 0;" controls>
+        
+    </audio>
+
+    <script src="./script.js"></script>
+</body>
+</html>
